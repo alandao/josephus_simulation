@@ -96,7 +96,7 @@ int main()
     KillRebelsUntilSurvivors(rebelStartingCount, amountOfSurvivors, rebel, 0);
 
 
-    //prints out the last two positions of the survivors
+    //prints out the last positions of the survivors
     cout << "Final positions of the soldiers:" << endl;
     for(int i = 0; i < (rebelStartingCount - 1); i++)
     {
